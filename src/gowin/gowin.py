@@ -43,7 +43,7 @@ add_file -type verilog "{{file.Path}}"
 {% elif file.FileType == VHDLSourceFile %}
 add_file -type vhdl "{{file.Path}}"
 set_file_prop -lib {{file.Library}} "{{file.Path}}"
-{% elif file.Path.name == 'project_settings.tcl' %}
+{% elif file.Path.name.endswith('.gowin.tcl') %}
 source "{{file.Path}}"
 {% else %}
 add_file "{{file.Path}}"

@@ -9,4 +9,4 @@ dependencies:
 files:
   - placement.cst
   - timing.sdc
-  - project_settings.tcl
+  - settings.gowin.tcl
