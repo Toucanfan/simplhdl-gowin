@@ -5,7 +5,7 @@ use ieee.numeric_std_unsigned.all;
 
 entity blinky is
     generic (
-        G_CNTR_WIDTH : integer := 27
+        G_CNTR_WIDTH : integer := 24
     );
     port (
         clk : in  std_logic;
