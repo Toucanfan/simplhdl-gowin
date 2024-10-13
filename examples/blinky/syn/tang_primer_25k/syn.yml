@@ -1,0 +1,12 @@
+#%SimplAPI=1.0
+project: default
+part: GW5A-LV25MG121NES__A
+top: blinky
+
+dependencies:
+  - ../../blinky.yml
+
+files:
+  - placement.cst
+  - timing.sdc
+  - project_settings.tcl
